@@ -76,8 +76,17 @@ public class StaticBlockDemo {
                 "Volkswagen",
                 "Volvo"));
     }
+
+    { //initializer block -> runs each time object created, before constructor
+        System.out.println("initializer block");
+
+    }
     public StaticBlockDemo() {
         System.out.println("Constructor method");
         num += 5;
+    }
+    public StaticBlockDemo( int value) {
+        System.out.println("overloading constructor - value = " + value);
+        num += value;
     }
 }
