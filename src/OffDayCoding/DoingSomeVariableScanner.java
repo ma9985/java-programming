@@ -2,7 +2,8 @@ package OffDayCoding;
 import java.util.Scanner;
 
 /*
-Given two variables num and cost that have been declared and given values, write a statement to print the values.
+Given two variables num and cost that have been declared and given values,
+ write a statement to print the values.
 
  */
 public class DoingSomeVariableScanner {
