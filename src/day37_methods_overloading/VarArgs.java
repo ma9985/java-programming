@@ -12,7 +12,7 @@ public class VarArgs {
                                    //varargs
     public static void addNumbers(int... nums) {
 
-        //inside the method, it is used as regualr array
+        //inside the method, it is used as regular array
         int sum = 0;
         for(int n : nums) {
             sum += n;
