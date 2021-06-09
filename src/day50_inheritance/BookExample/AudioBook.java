@@ -1,4 +1,6 @@
-package day50_inheritance;
+package day50_inheritance.BookExample;
+
+import day50_inheritance.BookExample.Book;
 
 public class AudioBook extends Book {
     int length;

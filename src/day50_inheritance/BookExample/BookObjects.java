@@ -1,4 +1,4 @@
-package day50_inheritance;
+package day50_inheritance.BookExample;
 
 public class BookObjects {
     public static void main(String[] args) {

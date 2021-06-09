@@ -17,7 +17,7 @@ public class Tester1 {
     private String jobTitle;
     private double salary;
 
-
+// set constructors
     public Tester1(String name, int employeeId, String jobTitle, double salary) {
         this.name= name;
         this.employeeId= employeeId;
@@ -62,6 +62,8 @@ public class Tester1 {
     public void createTicket() {
         System.out.println(this.name + " is creating a ticket");
     }
+
+
     @Override
     public String toString() {
         return "Tester1{" +

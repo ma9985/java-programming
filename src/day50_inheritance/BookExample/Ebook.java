@@ -1,6 +1,8 @@
-package day50_inheritance;
+package day50_inheritance.BookExample;
 
-public class Ebook extends Book{
+import day50_inheritance.BookExample.Book;
+
+public class Ebook extends Book {
     int size;
     int pages;
 
