@@ -10,6 +10,6 @@ public class Twix extends Candy{
 
 
     public Twix(String brand, int quantity, boolean hasPeanuts) {
-        super(brand, quantity, hasPeanuts);
+        super("Mars", quantity, hasPeanuts);
     }
 }
