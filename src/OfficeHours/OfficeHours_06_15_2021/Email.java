@@ -2,18 +2,23 @@ package OfficeHours.OfficeHours_06_15_2021;
 
 public class Email {
 
-    String ADDRESS;
+    final String ADDRESS;
     int numberOfEmail;
     static String domain;
 
-    static{
+    static {
         domain = "generic";
     }
 
     public Email(String address, int numberOfEmail){
-    this.ADDRESS = address;
-    this.numberOfEmail = numberOfEmail;
+        this.ADDRESS = address;
+        this.numberOfEmail = numberOfEmail;
     }
+
+    public static void sendEmail(){
+        System.out.println("Sending from PARENT");
+    }
+
 
     @Override
     public String toString() {

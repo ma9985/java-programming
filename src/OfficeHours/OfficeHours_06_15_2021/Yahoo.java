@@ -1,12 +1,13 @@
 package OfficeHours.OfficeHours_06_15_2021;
 
 public class Yahoo extends Email{
+    static String domain;
 
     static {
-        domain = "Teezy";
+        domain = "Yahoo";
     }
+
     public Yahoo(String address, int numberOfEmail) {
         super(address, numberOfEmail);
     }
 }
-
