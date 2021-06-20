@@ -1,4 +1,4 @@
-package day54_abstraction;
+package day54_abstraction.MenuOptions;
 
 public class Pizza extends MenuItem {
 

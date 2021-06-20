@@ -1,6 +1,6 @@
-package day54_abstraction;
+package day54_abstraction.MenuOptions;
 
-public class Salad extends MenuItem{
+public class Salad extends MenuItem {
     @Override
     public void prepare() {
         System.out.println("chop veggies, add dressing");

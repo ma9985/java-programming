@@ -1,4 +1,4 @@
-package day54_abstraction;
+package day54_abstraction.MenuOptions;
 
 public abstract class MenuItem {
     public abstract void prepare();
