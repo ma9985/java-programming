@@ -1,4 +1,4 @@
-package OfficeHours_07_19_2021;
+package OfficeHours.OfficeHours_07_19_2021;
  /*
  Create a method that will accept a String and returns a String with the duplicate instances of characters removed
 
@@ -9,13 +9,15 @@ Ex:
          */
 
 import java.util.Arrays;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class RemoveDuplicates {
     public static String removeDuplicateChars (String str) {
-        Set<String> set = new HashSet<>(Arrays.asList(str.split("")));
-        return set.toString();
+        Set<String> set = new LinkedHashSet<>(Arrays.asList(str.split("")));
+       // return set.toString(); // A,B,C,D
+
+        return String.join("",set);  //ABCD
     }
 
 
